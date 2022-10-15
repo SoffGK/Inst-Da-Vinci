@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*font-family: 'Cardo', serif;
+font-family: 'Cinzel', serif;
+font-family: 'Lemonada', cursive;
+font-family: 'Lora', serif; **/
+/* COLORES */
+header .navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header .navbar .nav1 .navbar-nav .nav-item {
+  list-style: none;
+}
+header .navbar .nav1 .navbar-nav .nav-item .nav-link {
+  text-decoration: none;
+}
+
+body {
+  background-color: #bF894E;
+}
+body main {
+  background-image: url(../../img/fondo_DV.png);
+  background-repeat: no-repeat;
+  background-color: #bF894E;
+}
+
+/*# sourceMappingURL=style.css.map */
