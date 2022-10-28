@@ -1,0 +1,70 @@
+.titProg {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: bold;
+    font-size: 7rem;
+    justify-content: center;
+    margin: 1%;
+    color: $color4;
+}
+
+.programCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+
+.card {
+    width: 13.75rem;
+    height: 17.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f2f3;
+    border-radius: 12px;
+    box-shadow: inset 5px 5px 10px #a9a9aa77,
+        inset -5px -5px 10px #ffffff7e;
+}
+
+.card .img {
+    height: 100%;
+    margin-top: 1.6em;
+    width: 50%;
+    border-radius: 50%;
+    background: #f2f2f3;
+    margin-bottom: 0.4em;
+    box-shadow: -0.3125rem -0.3125rem 0.5rem #ffffff7a,
+        0.3125rem 0.3125rem 0.5rem #a9a9aa7a;
+}
+
+.card .info {
+    text-align: center;
+    margin-top: 0.4em;
+    background: linear-gradient(120deg, rgba(0, 194, 255, 1) 0%, rgba(0, 86, 255, 1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card .info>span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.card a {
+    margin-top: 1em;
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(90deg, #58bfa2 0%, #3B7363 100%);
+    padding: .5em 2em;
+    border-radius: 0.7em;
+}
+
+.card a:active {
+    box-shadow: inset 0.1875rem 0.1875rem 0.1875rem #0056ff,
+        inset -0.1875rem -0.1875rem 0.1875rem #00c2ff;
+}
