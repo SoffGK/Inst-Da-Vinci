@@ -62,31 +62,73 @@ header {
   text-decoration: none;
   font-family: "Cinzel", serif;
   color: #bF894E;
-  font-size: 1.5625rem;
+  font-size: 1.8rem;
   align-self: center;
   justify-content: space-between;
   margin: 0.3%;
   width: 100%;
 }
 
-.nav-link:hover {
-  transform: scale(2);
-  transition: 3s;
-}
-
 .body {
   background-color: #58bfa2;
 }
-
-.carousel {
+.body .mainIndex {
   display: flex;
-  margin: 2%;
-  padding: 2%;
-  width: 60%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.body .mainIndex .titIndex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #243373;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  justify-content: space-between;
+}
+.body .mainIndex .titIndex h1 {
+  font-size: 4.3rem;
+}
+.body .mainIndex .titIndex h2 {
+  font-size: 3rem;
+}
+
+.banner {
+  display: flex;
   align-self: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 1.5%;
+}
+
+.circulos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.circulos .circulosImg {
+  width: 30%;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  border-color: #bF894E;
+  border-radius: 50%;
+  border-width: 3%;
+}
+.circulos .pCualidades {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 1.25rem;
+  font-family: "Cardo", serif;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 .titProg {
+  display: flex;
   text-align: center;
   font-family: "Cinzel", serif;
   font-style: bold;
@@ -157,9 +199,12 @@ footer {
   background: linear-gradient(90deg, #CC9254, #BF894E, #A67644, #805B34);
   margin-bottom: 0%;
   margin-top: 4%;
-  width: 100%;
+  width: fit-content;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .marca {
@@ -172,7 +217,6 @@ footer {
   width: 100%;
   display: flex;
   align-self: center;
-  justify-content: space-between;
 }
 .infoFoot .contactoFoot {
   width: 100%;
@@ -187,7 +231,7 @@ footer {
 .wrapper {
   display: inline-flex;
   list-style: none;
-  height: 50px;
+  height: 3.125rem;
   width: 100%;
   padding-top: 40px;
   font-family: "Poppins", sans-serif;
@@ -200,8 +244,8 @@ footer {
   background: #fff;
   border-radius: 50%;
   margin: 10px;
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   font-size: 18px;
   display: flex;
   justify-content: center;
@@ -260,7 +304,7 @@ footer {
 .wrapper .twitter:hover,
 .wrapper .twitter:hover .tooltip,
 .wrapper .twitter:hover .tooltip::before {
-  background: #1DA1F2;
+  background: #25D366;
   color: #fff;
 }
 

@@ -2,9 +2,12 @@ footer{
     background: linear-gradient(90deg,#CC9254 ,#BF894E,#A67644,#805B34);
     margin-bottom: 0%;
     margin-top: 4%;
-    width: 100%;
+    width: fit-content;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .marca{
     align-self: center;
@@ -15,7 +18,7 @@ footer{
     width: 100%;
     display: flex;
     align-self: center;    
-    justify-content: space-between;
+    
 
     .contactoFoot{
         width: 100%;
@@ -31,7 +34,7 @@ footer{
 .wrapper {
     display: inline-flex;
     list-style: none;
-    height: 50px;
+    height: 3.125rem;
     width: 100%;
     padding-top: 40px;
     font-family: "Poppins", sans-serif;
@@ -44,8 +47,8 @@ footer{
     background: #fff;
     border-radius: 50%;
     margin: 10px;
-    width: 50px;
-    height: 50px;
+    width: 3.125rem;
+    height: 3.125rem;
     font-size: 18px;
     display: flex;
     justify-content: center;
@@ -104,7 +107,7 @@ footer{
   .wrapper .twitter:hover,
   .wrapper .twitter:hover .tooltip,
   .wrapper .twitter:hover .tooltip::before {
-    background: #1DA1F2;
+    background: #25D366;
     color: #fff;
   }
   
