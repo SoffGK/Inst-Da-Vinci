@@ -6,18 +6,26 @@ footer{
     display: flex;
     flex-direction: column;
 }
-
-.infoFoot{
-    display: flex;
+.marca{
     align-self: center;
-    
+    font-size:xx-small;
+    font-style: bold;
+}
+.infoFoot{
+    width: 100%;
+    display: flex;
+    align-self: center;    
     justify-content: space-between;
 
     .contactoFoot{
+        width: 100%;
         display: flex;
         flex-direction: column;
-        margin-right: 4%;
-        margin-left: 4%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        align-items: center;
+        color: $color2 ;
+        
     }
 }
 .wrapper {

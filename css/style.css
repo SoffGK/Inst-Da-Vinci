@@ -78,6 +78,14 @@ header {
   background-color: #58bfa2;
 }
 
+.carousel {
+  display: flex;
+  margin: 2%;
+  padding: 2%;
+  width: 60%;
+  align-self: center;
+}
+
 .titProg {
   text-align: center;
   font-family: "Cinzel", serif;
@@ -154,16 +162,26 @@ footer {
   flex-direction: column;
 }
 
+.marca {
+  align-self: center;
+  font-size: xx-small;
+  font-style: bold;
+}
+
 .infoFoot {
+  width: 100%;
   display: flex;
   align-self: center;
   justify-content: space-between;
 }
 .infoFoot .contactoFoot {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin-right: 4%;
-  margin-left: 4%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  align-items: center;
+  color: #58bfa2;
 }
 
 .wrapper {

@@ -3,3 +3,16 @@
     
   
 }
+
+
+.carousel{
+    display: flex;
+    margin: 2%;
+    padding: 2%;
+    width: 60%;
+    align-self: center;
+
+
+    $carousel-transition-duration: 3s;
+    
+}
