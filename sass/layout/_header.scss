@@ -10,6 +10,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-flow: row;
+    flex-wrap: wrap;
     background-color: $color1;
     justify-content: space-between;
     margin: 1%;
@@ -28,19 +29,24 @@ header {
     }
 
     .nav2 {
-        width: 100%;
+        width: fit-content;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         align-content: space-between;
         justify-content: space-between;
         margin: 1%;
+        margin-left: 2%;
+        margin-right: 0%;
         padding: 1%;
 
         .ulnav {
             display: flex;
+            
             flex-direction: row;
             justify-content: space-between;
-            width: 100%;
+            width: fit-content;
+          
 
             .linav {
                 width: 100%;
@@ -53,10 +59,12 @@ header {
                 padding: 1%;
 
                 .nav-link {
+                    display: flex;
+                    flex-wrap: wrap;
                     text-decoration: none;
                     font-family: 'Cinzel', serif;
                     color: $color3;
-                    font-size: 1.8rem;
+                    font-size: 1.7rem;
                     align-self: center;
                     justify-content: space-between;
                     margin: 0.3%;

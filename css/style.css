@@ -19,6 +19,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-flow: row;
+  flex-wrap: wrap;
   background-color: #3B7363;
   justify-content: space-between;
   margin: 1%;
@@ -34,19 +35,22 @@ header {
   margin: 0.5%;
 }
 .navheader .nav2 {
-  width: 100%;
+  width: fit-content;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   align-content: space-between;
   justify-content: space-between;
   margin: 1%;
+  margin-left: 2%;
+  margin-right: 0%;
   padding: 1%;
 }
 .navheader .nav2 .ulnav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
+  width: fit-content;
 }
 .navheader .nav2 .ulnav .linav {
   width: 100%;
@@ -59,10 +63,12 @@ header {
   padding: 1%;
 }
 .navheader .nav2 .ulnav .linav .nav-link {
+  display: flex;
+  flex-wrap: wrap;
   text-decoration: none;
   font-family: "Cinzel", serif;
   color: #bF894E;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   align-self: center;
   justify-content: space-between;
   margin: 0.3%;
@@ -130,7 +136,6 @@ header {
 .titProg {
   display: flex;
   text-align: center;
-  font-family: "Cinzel", serif;
   font-style: bold;
   font-size: 7rem;
   justify-content: center;
@@ -199,7 +204,7 @@ footer {
   background: linear-gradient(90deg, #CC9254, #BF894E, #A67644, #805B34);
   margin-bottom: 0%;
   margin-top: 4%;
-  width: fit-content;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -313,6 +318,38 @@ footer {
 .wrapper .instagram:hover .tooltip::before {
   background: #E4405F;
   color: #fff;
+}
+
+.accordion {
+  width: 60%;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  align-items: center;
+  padding: 2%;
+}
+.accordion .accordion-button {
+  background: linear-gradient(90deg, #00c2ff, #8FFFDF, #72CCB3);
+}
+.accordion .accordion-body {
+  background: linear-gradient(100deg, #72CCB3, #8FFFDF, #00c2ff);
+  font-style: bold;
+}
+.accordion .accordion-body p {
+  font-size: small;
+  color: #B35A40;
+}
+
+.mainProg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circProg {
+  display: flex;
+  padding: 20%;
+  width: 90%;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
