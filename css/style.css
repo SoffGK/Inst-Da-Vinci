@@ -31,7 +31,7 @@ header {
   align-items: center;
 }
 .navheader .navLogo {
-  width: 30%;
+  width: 30vh;
   margin: 0.5%;
 }
 .navheader .nav2 {
@@ -94,13 +94,14 @@ header {
   justify-content: space-between;
 }
 .body .mainIndex .titIndex h1 {
-  font-size: 4.3rem;
+  font: size 80vw;
 }
 .body .mainIndex .titIndex h2 {
-  font-size: 3rem;
+  font: size 70vw;
 }
 
 .banner {
+  width: 40vw;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -114,7 +115,7 @@ header {
   justify-content: space-around;
 }
 .circulos .circulosImg {
-  width: 30%;
+  width: 40vw;
   align-self: center;
   align-items: center;
   justify-content: space-between;
@@ -126,18 +127,69 @@ header {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-size: 1.25rem;
+  font: size 40vw;
   font-family: "Cardo", serif;
   text-align: center;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 
+.cont-tit {
+  text-align: center;
+  font: size 80vw;
+}
+
+.cardsCont {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardcont {
+  box-sizing: border-box;
+  width: 190px;
+  height: 254px;
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+  backdrop-filter: blur(6px);
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+}
+
+.cardcont:hover {
+  border: 1px solid black;
+  transform: scale(1.05);
+}
+
+.cardcont:active {
+  transform: scale(0.95) rotateZ(1.7deg);
+}
+
+.wp {
+  background-color: #25D366;
+}
+
+.ig {
+  background-color: #E4405F;
+}
+
+.gm {
+  background-color: #dd4b39;
+}
+
 .titProg {
   display: flex;
   text-align: center;
   font-style: bold;
-  font-size: 7rem;
+  font: size 80vw;
   justify-content: center;
   margin: 1%;
   color: #243373;
@@ -223,101 +275,8 @@ footer {
   display: flex;
   align-self: center;
 }
-.infoFoot .contactoFoot {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 1%;
-  margin-bottom: 1%;
-  align-items: center;
-  color: #58bfa2;
-}
-
-.wrapper {
-  display: inline-flex;
-  list-style: none;
-  height: 3.125rem;
-  width: 100%;
-  padding-top: 40px;
-  font-family: "Poppins", sans-serif;
-  justify-content: center;
-  -ms-flex-align: start;
-}
-
-.wrapper .icon {
-  position: relative;
-  background: #fff;
+.infoFoot .btn {
   border-radius: 50%;
-  margin: 10px;
-  width: 3.125rem;
-  height: 3.125rem;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background: #fff;
-  color: #fff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #fff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.wrapper .icon:hover .tooltip {
-  top: -45px;
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.wrapper .icon:hover span,
-.wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-  background: #1877F2;
-  color: #fff;
-}
-
-.wrapper .twitter:hover,
-.wrapper .twitter:hover .tooltip,
-.wrapper .twitter:hover .tooltip::before {
-  background: #25D366;
-  color: #fff;
-}
-
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background: #E4405F;
-  color: #fff;
 }
 
 .accordion {
@@ -334,6 +293,7 @@ footer {
 .accordion .accordion-body {
   background: linear-gradient(100deg, #72CCB3, #8FFFDF, #00c2ff);
   font-style: bold;
+  font: size 60vw;
 }
 .accordion .accordion-body p {
   font-size: small;
@@ -348,7 +308,7 @@ footer {
 .circProg {
   display: flex;
   padding: 20%;
-  width: 90%;
+  width: 50vw;
   align-items: center;
 }
 
