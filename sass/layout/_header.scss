@@ -20,6 +20,8 @@ header {
         grid-template-columns: 30% 40%;
         justify-content: space-between;
         align-items: center;
+        margin: 1%;
+        
     }
 
     .navLogo {
@@ -37,15 +39,15 @@ header {
         justify-content: space-between;
         margin: 1%;
         margin-left: 2%;
-        margin-right: 0%;
         padding: 1%;
+        overflow: hidden;
 
         .ulnav {
             display: flex;
-            
             flex-direction: row;
             justify-content: space-between;
             width: fit-content;
+            align-content: center;
           
 
             .linav {
@@ -57,9 +59,11 @@ header {
                 justify-content: space-between;
                 margin: 1%;
                 padding: 1%;
+                align-items: center;
 
                 .nav-link {
                     display: flex;
+                    box-sizing: content-box;
                     flex-wrap: wrap;
                     text-decoration: none;
                     font-family: 'Cinzel', serif;

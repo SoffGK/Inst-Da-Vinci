@@ -11,7 +11,7 @@ font-family: 'Lora', serif; **/
 /* COLORES */
 header {
   width: 100%;
-  background-color: #3B7363;
+  background-color: #52C7AA;
 }
 
 .navheader {
@@ -20,7 +20,7 @@ header {
   flex-direction: row;
   flex-flow: row;
   flex-wrap: wrap;
-  background-color: #3B7363;
+  background-color: #52C7AA;
   justify-content: space-between;
   margin: 1%;
 }
@@ -29,6 +29,7 @@ header {
   grid-template-columns: 30% 40%;
   justify-content: space-between;
   align-items: center;
+  margin: 1%;
 }
 .navheader .navLogo {
   width: 30vh;
@@ -43,14 +44,15 @@ header {
   justify-content: space-between;
   margin: 1%;
   margin-left: 2%;
-  margin-right: 0%;
   padding: 1%;
+  overflow: hidden;
 }
 .navheader .nav2 .ulnav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: fit-content;
+  align-content: center;
 }
 .navheader .nav2 .ulnav .linav {
   width: 100%;
@@ -61,13 +63,15 @@ header {
   justify-content: space-between;
   margin: 1%;
   padding: 1%;
+  align-items: center;
 }
 .navheader .nav2 .ulnav .linav .nav-link {
   display: flex;
+  box-sizing: content-box;
   flex-wrap: wrap;
   text-decoration: none;
   font-family: "Cinzel", serif;
-  color: #bF894E;
+  color: #AD4524;
   font-size: 1.7rem;
   align-self: center;
   justify-content: space-between;
@@ -76,7 +80,7 @@ header {
 }
 
 .body {
-  background-color: #58bfa2;
+  background-color: #65F9D4;
 }
 .body .mainIndex {
   display: flex;
@@ -88,7 +92,7 @@ header {
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-  color: #243373;
+  color: #327A68;
   margin-top: 2%;
   margin-bottom: 1%;
   justify-content: space-between;
@@ -119,7 +123,7 @@ header {
   align-self: center;
   align-items: center;
   justify-content: space-between;
-  border-color: #bF894E;
+  border-color: #AD4524;
   border-radius: 50%;
   border-width: 3%;
 }
@@ -137,6 +141,7 @@ header {
 .cont-tit {
   text-align: center;
   font: size 80vw;
+  color: #327A68;
 }
 
 .cardsCont {
@@ -192,7 +197,7 @@ header {
   font: size 80vw;
   justify-content: center;
   margin: 1%;
-  color: #243373;
+  color: #327A68;
 }
 
 .programCards {
@@ -228,7 +233,7 @@ header {
 .card .info {
   text-align: center;
   margin-top: 0.4em;
-  background: linear-gradient(120deg, rgb(0, 194, 255) 0%, rgb(0, 86, 255) 100%);
+  background: linear-gradient(120deg, #5BCDFD 0%, #52DEE3 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -243,17 +248,17 @@ header {
   margin-top: 1em;
   color: #fff;
   text-decoration: none;
-  background: linear-gradient(90deg, #58bfa2 0%, #3B7363 100%);
+  background: linear-gradient(90deg, #B2FBE9 0%, #52C7AA 100%);
   padding: 0.5em 2em;
   border-radius: 0.7em;
 }
 
 .card a:active {
-  box-shadow: inset 0.1875rem 0.1875rem 0.1875rem #0056ff, inset -0.1875rem -0.1875rem 0.1875rem #00c2ff;
+  box-shadow: inset 0.1875rem 0.1875rem 0.1875rem #52DEE3, inset -0.1875rem -0.1875rem 0.1875rem #5BCDFD;
 }
 
 footer {
-  background: linear-gradient(90deg, #CC9254, #BF894E, #A67644, #805B34);
+  background: linear-gradient(90deg, #FFA182, #FA8A66, #FA6334, #AD4524);
   margin-bottom: 0%;
   margin-top: 4%;
   width: 100%;
@@ -288,10 +293,10 @@ footer {
   padding: 2%;
 }
 .accordion .accordion-button {
-  background: linear-gradient(90deg, #00c2ff, #8FFFDF, #72CCB3);
+  background: linear-gradient(90deg, #B2FBE9, #8FFFDF, #72CCB3);
 }
 .accordion .accordion-body {
-  background: linear-gradient(100deg, #72CCB3, #8FFFDF, #00c2ff);
+  background: linear-gradient(100deg, #72CCB3, #8FFFDF, #B2FBE9);
   font-style: bold;
   font: size 60vw;
 }
